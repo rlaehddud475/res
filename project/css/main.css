@@ -59,7 +59,7 @@ header div a:hover {
 
 body > img {
   width: 100%;
-  height: auto;
+  height: 500px;
   display: block;
   transform: rotate(-90deg);
   object-fit: cover;
