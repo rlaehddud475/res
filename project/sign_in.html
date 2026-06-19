@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/sign_in.css" />
+    <title>회원가입</title>
+  </head>
+  <body>
+    <form action="php/sign_in.php" method="post">
+      <div>
+        <input name="email" type="text" placeholder="e-mail을 입력하세요" />
+      </div>
+      <div>
+        <input
+          name="password"
+          type="password"
+          placeholder="비밀번호를 입력하세요"
+        />
+      </div>
+      <button class="btn-login" type="submit">log in</button>
+      <div>
+        계정이 있으면
+        <a href="login.html" class="signup-link">log in</a>
+      </div>
+    </form>
+  </body>
+</html>

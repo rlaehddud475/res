@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>로그인</title>
+    <link rel="stylesheet" href="css/login.css" />
+  </head>
+  <body>
+    <form action="php/login.php" method="post">
+      <table>
+        <tr>
+          <td id="title"><h2>Welcome Back</h2></td>
+        </tr>
+        <tr>
+          <td>
+            <div>
+              <input
+                name="email"
+                id="email"
+                type="text"
+                placeholder="e-mail을 입력하세요"
+              />
+            </div>
+            <div>
+              <input
+                name="password"
+                id="pws"
+                type="password"
+                placeholder="비밀번호를 입력하세요"
+              />
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button class="btn-login" type="submit">log in</button>
+          </td>
+        </tr>
+        <tr>
+          <td class="login-links">
+            <div><a href="updatePws.html">Forgot Password? </a></div>
+            <div class="signup-text">
+              계정이 없습니까
+              <a href="sign_in.html" class="signup-link">sign Up</a>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
