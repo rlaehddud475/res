@@ -61,7 +61,7 @@ body > img {
   width: 100%;
   height: auto;
   display: block;
-    transform: rotate(90deg);
+    transform: rotate(-90deg);
 }
 
 footer {
